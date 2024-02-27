@@ -1,0 +1,146 @@
+*{
+    list-style-type: none;
+}
+
+.ul-menu{
+    background-color: dimgray; 
+    color: whitesmoke;
+    list-style-type: none;
+    overflow: hidden;
+    text-align: center;
+}
+.li-menu{
+    float: right;
+}
+.logo{
+    text-align: center;
+    font-size: 50px;
+    display: inline;
+}
+.a-menu{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    display: block;
+    padding: 17px;
+
+}
+.li-menu a:hover{
+    color: black;
+}
+.colomn{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.mypho{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+}
+.icons{
+    width: 35px;
+    padding: 5px;
+}
+.left{
+    width: 20%;
+    float: left;
+
+}
+.right{
+    width: 80%;
+    float: left;
+}
+.row{
+    padding: 5px;
+}
+.row::after{
+    display: table;
+    clear: left;
+    content: "";
+}
+.main-bar{
+    background-color: gray;
+    display: block;
+    height: 25px;
+}
+
+.main-bar span{
+    background-color: teal;
+    height: 25px;
+    display: block;
+    color: white;
+}
+.java1{
+    width: 90%;
+    animation: java1 2s;
+}
+.c1{
+    width: 70%;
+    animation: c1 2s;
+}
+.php{
+    width: 60%;
+    animation: php 2s;
+}
+.python{
+    width: 50%;
+    animation: python 2s;
+}
+.github{
+    width: 70%;
+    animation: github 2s;
+}
+@keyframes java1{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes c1{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes php{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes python{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+@keyframes github{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+.footer{
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding-top: 10px;
+}
+@media screen and (max-width:800px) {
+    .colomn{
+        width: 100%;
+    }   
+}
